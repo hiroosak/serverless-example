@@ -1,0 +1,17 @@
+{
+  "name": "serverless-study",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "serverless": "^1.42.3",
+    "serverless-http": "^2.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.10.3"
+  }
+}

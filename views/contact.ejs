@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Hello</title>
+  </head>
+  <body>
+    <h1><%= hello %></h1>
+    <form aciton="./contact" method="POST">
+      <input type="text" name="foo">
+      <input type="submit" value="submit" />
+      <input type="hidden" name="token" value="<%= token %>" />
+    </form>
+  </body>
+</html>
